@@ -1,0 +1,15 @@
+AllCops:
+  Include:
+    - resume.rb
+
+Metrics/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
