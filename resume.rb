@@ -4,20 +4,20 @@
 # $ rspec resume.rb --format documentation --color
 
 module TianwenChen
-  puts <<~CONTACT.lstrip << "\n"
+  puts <<~CONTACT
     nick_name: Tian
     email: me at tian.im
     github: https://github.com/tian-im
     linkedin: http://www.linkedin.com/in/tian-im
   CONTACT
 
-  puts <<~SUMMARY.lstrip
-    - Full stack web developer, program in test-driven fashion and speak Ruby.
+  puts <<~SUMMARY
+    - Full stack web developer, program in test-driven fashion.
     - Keen to deliver high-quality products.
     - Author of `wallaby` gem (see https://github.com/reinteractive/wallaby).
   SUMMARY
 
-  describe "I'm a Senior Developer" do
+  describe "I'm a Senior Developer who speaks Ruby" do
     it { is_expected.to be_truthy }
   end
 
